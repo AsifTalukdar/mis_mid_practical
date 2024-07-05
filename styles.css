@@ -36,7 +36,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #7e5151;
     color: white;
     text-align: center;
     padding: 1rem 1rem;
@@ -87,6 +87,7 @@ main.products .product-grid {
 
 main.products .product-item {
     text-align: center;
+    font: 1.5em Cursive;
 }
 
 main.products .product-item img {
@@ -102,7 +103,7 @@ main.contact {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -111,20 +112,20 @@ form label {
 }
 
 form input, form textarea {
-    padding: 0.5rem;
+    padding: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 5px solid #471919;
+    border-radius: 5px;
 }
 
 form button {
     padding: 0.5rem 1rem;
     border: none;
-    background-color: #333;
-    color: white;
+    background-color: #391717;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #e20f0f;
 }
